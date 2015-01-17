@@ -11,3 +11,7 @@ def index():
         options['api_error'] = True
 
     return render_template('index.html', **options)
+
+@app.route('/aboutus/')
+def aboutus():
+	return render_template('aboutus.html')
