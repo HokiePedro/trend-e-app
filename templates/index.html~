@@ -3,20 +3,20 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>My Portfolio</title>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="/home/ps/Documents/mhacks2015/trend-e-app/templates/style.css">
 	</head>
 
 	<body>
 		<nav>
 			<div class="wrapper">
 				<div class="logo"></div>
-				<p class="logotext"> trend-e </p>	
+				<p class="logotext"> trend-e mhacks </p>	
 				<ul>
-					<a href="/home/ps/Documents/mhacks2015/trend-e-app/templatesindex.html"><li class="menupage">HOME</li></a>
-					<a href="/home/ps/Documents/mhacks2015/trend-e-app/templatescases.html"><li>CASES</li></a>
-					<a href="/home/ps/Documents/mhacks2015/trend-e-app/templatesportfolio.html"><li>PORTFOLIO</li></a>
-					<a href="/home/ps/Documents/mhacks2015/trend-e-app/templatesblog.html"><li>BLOG</li></a>
-					<a href="/home/ps/Documents/mhacks2015/trend-e-app/templatescontacts.html"><li>CONTACTS</li></a>
+					<a href="/home/ps/Documents/mhacks2015/trend-e-app/templates/index.html"><li class="menupage">HOME</li></a>
+					<a href="/home/ps/Documents/mhacks2015/trend-e-app/templates/cases.html"><li>CASES</li></a>
+					<a href="/home/ps/Documents/mhacks2015/trend-e-app/templates/portfolio.html"><li>PORTFOLIO</li></a>
+					<a href="/home/ps/Documents/mhacks2015/trend-e-app/templates/blog.html"><li>BLOG</li></a>
+					<a href="/home/ps/Documents/mhacks2015/trend-e-app/templates/contacts.html"><li>CONTACTS</li></a>
 				</ul>
 			</div>
 		</nav>
