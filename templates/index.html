@@ -1,18 +1,37 @@
-{% extends "base.html" %}
+<!doctype html>
+<html lang="eng">
+	<head>
+		<meta charset="utf-8" />
+		<title>My Portfolio</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
 
-{% block content %}
+	<body>
+		<nav>
+			<div class="wrapper">
+				<div class="logo"></div>
+				<p class="logotext"> Pedro </br> Sorto </p>	
+				<ul>
+					<a href="index.html"><li class="menupage">HOME</li></a>
+					<a href="cases.html"><li>CASES</li></a>
+					<a href="portfolio.html"><li>PORTFOLIO</li></a>
+					<a href="blog.html"><li>BLOG</li></a>
+					<a href="contacts.html"><li>CONTACTS</li></a>
+				</ul>
+			</div>
+		</nav>
 
-<h1> Welcome to your starter code! </h1>
-Do some experimenting and make some changes.
+		<header> 
+			<div class="wrapper"></div>
+		</header>
 
-<br><h2> The terms returned from the schedule API are: </h3>
-{% for term in terms %}
-    {{ term['TermDescr'] }}<br>
-{% endfor %}
+		<section>
+			<div class="wrapper"></div>
+		</section>
 
-{% if api_error %}
-<b>Getting the API terms failed!</b>
-Did you set the API token?
-{% endif %}
+		<footer>
+			<div class="wrapper"></div>
+		</footer>		
 
-{% endblock %}
+	</body>
+</html>
