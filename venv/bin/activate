@@ -39,7 +39,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/ps/Documents/trend_e_app/SchedulePlanningWebsite/venv"
+VIRTUAL_ENV="/Users/Meghan/trend-e-app/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

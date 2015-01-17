@@ -32,7 +32,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/ps/Documents/trend_e_app/SchedulePlanningWebsite/venv"
+set -gx VIRTUAL_ENV "/Users/Meghan/trend-e-app/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
