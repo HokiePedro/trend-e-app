@@ -133,8 +133,13 @@
 
 				<p class="logotext"> trend-e</br></p>	
 				<ul>
+<<<<<<< HEAD:templates/home.html
+					<li class="menupage"><a href="home.html" target="_self">ABOUT US</a></li>
+					<li><a href="aboutus" target="_self">BE TREND-E</a></li>
+=======
 					<li class="menupage"><a href="/" target="_self">ABOUT US</a></li>
 					<li><a href="betrende" target="_self">BE TREND-E</a></li>
+>>>>>>> 619e1bcbb3f5d79a2ff0141cd2292d54ae86b183:templates/index.html
 					<a href="portfolio.html"><li>COMPANIES</li></a>
 					<a href="blog.html"><li>BLOG</li></a>
 					<a href="contacts.html"><li>SAY HELLO</li></a>
