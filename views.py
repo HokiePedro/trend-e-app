@@ -12,6 +12,10 @@ def index():
 
     return render_template('index.html', **options)
 
+@app.route('/portfolio')
+def portfolio():
+	return render_template('portfolio.html')
+
 @app.route('/betrende/')
 def betrende():
 	return render_template('betrende.html')
