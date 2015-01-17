@@ -134,11 +134,11 @@ header {
 
 				<p class="logotext"> trend-e homepage</br> app </p>	
 				<ul>
-					<a href="index.html"><li class="menupage">HOME</li></a>
-					<a href="cases.html"><li>ABOUT US</li></a>
-					<a href="portfolio.html"><li>PORTFOLIO</li></a>
-					<a href="blog.html"><li>BLOG</li></a>
-					<a href="contacts.html"><li>CONTACTS</li></a>
+					<a href="About Us.html"><li class="menupage">HOME</li></a>
+					<a href="Be trend-e.html"><li>ABOUT US</li></a>
+					<a href="Companies.html"><li>PORTFOLIO</li></a>
+					<a href="Blog.html"><li>BLOG</li></a>
+					<a href="Say Hello.html"><li>CONTACTS</li></a>
 				</ul>
 			</div>
 		</nav>
