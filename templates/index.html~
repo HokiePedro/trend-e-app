@@ -4,26 +4,26 @@
 		<meta charset="utf-8" />
 		<title>My Portfolio</title>
 		<link rel="stylesheet" href="style.css">
-	<style> 
-	    @charset "utf-8";
+		<style> 
+	    	@charset "utf-8";
 
-/*reset sheet*/
-* {
-	margin: 0px;
-	padding: 0px;
-	text-decoration: none;
-}
+			/*reset sheet*/
+			* {
+		  	margin: 0px;
+	 	  	padding: 0px;
+		  	text-decoration: none;
+			}
 
-.wrapper {
-	margin: 0 auto;
-	width: 1200px;
-}
+		.wrapper {
+		  margin: 0 auto;
+		  width: 1200px;
+		}
 
-nav {
-	width:100%;
-	height:80px;
-	border-bottom: 1px solid #cecece; /* Adds a thin grey line to the bottom of the header*/
-}
+		nav {
+		  width:100%;
+		  height:80px;
+		  border-bottom: 1px solid #cecece; /* Adds a thin grey line to the bottom of the header*/
+		}
 
 .logo {
 	float: left;
@@ -102,24 +102,25 @@ header {
     float: right;
 }
 
-/* Description purpose*/
-.whoami h2{
-    font-family: arial;
-    color: white;
-    font-size: 65   px;
-}
+	/* Description purpose*/
+	.whoami h2{
+      font-family: arial;
+      color: white;
+      font-size: 65   px;
+	}
 
-.whoamit1{
-    width: 55%;
-    height: 200px;
-    font-family: arial;
-    color: white;       
-    border-right: solid 1px white;
-}
+	.whoamit1{
+      width: 55%;
+      height: 200px;
+      font-family: arial;
+      color: white;       
+      border-right: solid 1px white;
+	}
 
-.whoamit1 p{
-    font-family: arial;
-    font-size: 14px;
+	.whoamit1 p{
+      font-family: arial;
+      font-size: 14px;
+	}
     
 
 	</style>
@@ -143,7 +144,31 @@ header {
 		</nav>
 
 		<header> 
-			<div class="wrapper"></div>
+			<div class="wrapper">
+				<div class="whoami"> 
+				    <h2> Description <br> Purpose </h2>
+				    <div class="whoamit1">
+				        <p>
+				            A brief description of our website's goal and vision. Text text text text text
+				            text text text sample text. Text text text text text
+				            text text text sample text.Text text text text text
+				            text text text sample text.Text text text text text
+				            text text text sample text.Text text text text text
+				            text text text sample text. <br> Text text text text text
+				            text text text sample text.Text text text text text
+				            text text text sample text.Text text text text text
+				            text text text sample text.Text text text text text
+				            text text text sample text.Text text text text text
+				            text text text sample text.Text text text text text
+				            text text text sample text.Text text text text text
+				            text text text sample text.
+				        </p>
+				    </div>
+				</div>
+				<div class="latestworkindex">
+				</div>
+							
+			</div>
 		</header>
 
 		<section>
