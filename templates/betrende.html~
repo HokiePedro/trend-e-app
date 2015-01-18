@@ -30,6 +30,7 @@
 		  	border-bottom: 1px solid #cecece; /* Adds a thin grey line to the bottom of the header*/
 		}
 
+
 	    .logo {
 	    float: left;
 	    position: relative;
@@ -87,6 +88,7 @@
 		header {
     		height:590px;
     		width:100%;
+
     		background-color:white;
 		}
 
@@ -97,6 +99,7 @@
     		background-color: #C6C6C6;
     		float: left;
 		}
+
 
 		</style>
 	
@@ -121,9 +124,11 @@
 
 		<header> 
 			<div class="wrapper">
+
 				<div class="betrendebanner"> 
 				    <h2> BE TREND-E</h2>
 				</div>
+
 			</div>
 		</header>
 
@@ -137,3 +142,4 @@
 
 	</body>
 </html>
+
