@@ -21,9 +21,9 @@ def portfolio():
 def betrende():
 	return render_template('betrende.html')
 
-@app.route('/companies')
-def companies():
-	return render_template('companies.html')
+@app.route('/buytrende')
+def buytrende():
+	return render_template('buytrende.html')
 
 @app.route('/blog')
 def blog():

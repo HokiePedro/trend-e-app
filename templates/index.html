@@ -14,6 +14,10 @@
 		  		text-decoration: none;
 			}
 
+		.twitter-timeline{
+			padding: 0px;
+			
+		}
 		.wrapper {
 		  	margin: 0 auto;
 		  	width: 1200px;
@@ -121,17 +125,18 @@
      		font-size: 65   px;
 		}
 
-		.whoamit1{
-      		width: 55%;
-      		height: 200px;
-      		font-family: arial;
-      		color: white;       
-      		border-right: solid 1px white;
-		}
-
 		.whoamit1 p{
       		font-family: arial;
       		font-size: 14px;
+		}
+
+		.textbox {
+			margin-top:7px;
+    		height: 364.5px;
+    		width: 49.85%;
+    		background-color:#808080;
+    		float: center;
+    		resize: none;
 		}
     
 
@@ -158,10 +163,18 @@
 		<header> 
 			<div class="wrapper">
 				<div class="whoami"> 
-				    <h2> welcome to trend-e <br> thanks for stopping by!</h2>
+				    <h2> welcome to trend-e <br></h2>
 				    <div class="whoamit1">
 				        <p>
-				            Welcome to trend-e! We can't wait for you to see our final hack. #MHacks 2015  <br> ..... :)
+				        	<form action="/html/tags/html_form_tag_action.cfm" method="post">
+<br/>
+  <textarea class="textbox">
+  Welcome to trend-e! We can't wait for you to see our final hack #MHacks 
+  </textarea><br/>
+</form>
+				         
+
+
 				        </p>
 				    </div>
 				</div>
