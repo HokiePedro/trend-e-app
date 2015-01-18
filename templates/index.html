@@ -14,6 +14,10 @@
 		  		text-decoration: none;
 			}
 
+		.twitter-timeline{
+			padding: 0px;
+			
+		}
 		.wrapper {
 		  	margin: 0 auto;
 		  	width: 1200px;
@@ -133,6 +137,14 @@
       		font-family: arial;
       		font-size: 14px;
 		}
+
+		.textbox {
+			margin-top:60px;
+    		height: 380px;
+    		width: 50%;
+    		background-color:white;
+    		float: left;
+		}
     
 
 		</style>
@@ -170,7 +182,16 @@
 				    <h2> welcome to trend-e <br> thanks for stopping by!</h2>
 				    <div class="whoamit1">
 				        <p>
-				            Welcome to trend-e! We can't wait for you to see our final hack. #MHacks 2015  <br> ..... :)
+				        	<form action="/html/tags/html_form_tag_action.cfm" method="post">
+Comments:<br />
+  <textarea name="comments" id="comments" style="width:420px;height:70px;background-color:#808080;">
+  Hey... say something!
+  </textarea><br />
+  <input type="submit" value="Submit" />
+</form>
+				         
+Welcome to trend-e! We can't wait for you to see our final hack. #MHacks 2015..... :)
+
 				        </p>
 				    </div>
 				</div>
