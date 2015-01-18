@@ -1,15 +1,12 @@
 <!doctype html>
 <html lang="eng">
+<head>
+	<meta charset="utf-8" name="ROBOTS" content="NOINDEX, NOFOLLOW"/>		<title>welcome to trend-e</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="jquery-2.1.3.min.js"></script>
 
-	<head>
-		 <meta charset="utf-8" name="ROBOTS" content="NOINDEX, NOFOLLOW"/>		<title>welcome to trend-e</title>
-		<link rel="stylesheet" href="style.css">
-		<script src="jquery-2.1.3.min.js"></script>
-	    
-	    
-	    
-	    <style>
-	        #tfheader{
+	<style>
+	#tfheader{
 		background-color:#c3dfef;
 	}
 	#tfnewsearch{
@@ -25,10 +22,10 @@
 		font-size:18px;
 		color:#0000;
 		text-decoration: none; 
-			}
+	}
 	.tfbutton2 {
 		
-        
+
 		font-family: Arial, Helvetica, sans-serif;
 		font-size:14px;
 		font-weight:bold;
@@ -50,174 +47,234 @@
 	}
 	/* Fixes submit button height problem in Firefox */
 	.tfbutton2::-moz-focus-inner {
-	  border: 0;
+		border: 0;
 	}
 	.tfclear{
 		clear:both;
 	}     
-			/*reset sheet*/
-			* {
-		  		margin: 0px;
-	 	  		padding: 0px;
-		  		text-decoration: none;
-			}
+	/*reset sheet*/
+	* {
+		margin: 0px;
+		padding: 0px;
+		text-decoration: none;
+	}
 
-		.wrapper {
-		  	margin: 0 auto;
-		  	width: 1200px;
-		}
+	.wrapper {
+		margin: 0 auto;
+		width: 1200px;
 
-		.whoamit1 {
-			margin: 0, auto;
-			width: 1200px;
-		}
+	}
 
-		nav {
-		  	width:100%;
-		  	height:80px;
-		  	border-bottom: 1px solid #cecece; /* Adds a thin grey line to the bottom of the header*/
-		}
+	.whoamit1 {
+		margin: 0, auto;
+		width: 1200px;
+	}
+
+	nav {
+		width:100%;
+		height:80px;
+		border-bottom: 1px solid #cecece; /* Adds a thin grey line to the bottom of the header*/
+	}
 
 
-	    .logo {
-	    float: left;
-	    position: relative;
-	    top: 15px;
-	    width: 80px;
-	    height: 80px;
-    	background-image: url = ("http://i.imgur.com/Jlwb1kK.png");
+	.logo {
+	float: left;
+	position: relative;
+	top: 0px;
+	width: 200px;
+	height: 60px;
+	background-image: url("img/trend-e_combined.png");
+}
 
-        }
-        .logo:hover {
-          background-position: bottom;
-        }
-    .logotext{
-        position: relative;
-        right: 0px;
-        float: left;
-        font-family: arial;
-        font-size: 20px;
-        /* padding is used to move text left and right, margin is for up and down */
-        padding-top: 22px;
-        line-height: 95%;
-    }
-    nav ul {
-      float: right;
-    }
-    nav ul li{
-        display: inline-block;
-        color: black; 
-        font-size: 12px;
-        font-family: arial;
-        height: 80px;
-        width: 110px;
-  
-        /*fixing the issue of boxes surpassing the boarder*/
-        float: left;
-        /*centering text in the boxes*/
-      text-align: center;
-      line-height: 700%; 
-      /*list style prevents the website from srewing up the navigation portion of the site*/
-      list-style: none;  
-    }
-    nav ul li:hover{
-      background-color: #f2f2f2;   
-    }
-    .menupage {
-      background-color: #f2f2f2;
-      color: orange;
-    }
-    header {
-        height:590px;
-        width:100%;
-        background-color:white;
-    }
-    .betrendebanner{
-        margin-top:50px;
-            overflow:hidden;
-        width: 100%;
-        background-color: #C6C6C6;
-        float: left;
-    }
-    </style>
-  
-  </head>
+.logo:hover {
+	background-position: bottom;
+}
 
-  <body>
-     
-  
-    <nav>
-      <div class="wrapper">
-        <div class="logo"></div>
+	.logotext{
+		position: relative;
+		right: 0px;
+		float: left;
+		font-family: arial;
+		font-size: 20px;
+		/* padding is used to move text left and right, margin is for up and down */
+		padding-top: 22px;
+		line-height: 95%;
+	}
 
-        <a href="http://tinypic.com?ref=2ag99xd"><a>  
-        <ul>
-          <a href="/" target="_self"><li>HOME</li></a>
-          <a href="/betrende" target="_self"><li class="menupage">BE TREND-E</li></a>
-          <a href="/buytrende"><li>BUY TREND-E</li></a>
-          <a href="/blog"><li>BLOG</li></a>
-          <a href="/sayhello"><li>SAY HELLO</li></a>
-        </ul>
-      </div>
-    </nav>
+	nav ul {
+		float: right;
+	}
 
-    <header> 
-      <div class="wrapper">
+	nav ul li{
+		display: inline-block;
+		color: black;	
+		font-size: 12px;
+		font-family: arial;
+		height: 80px;
+		width: 110px;
 
-        <div id="ebayTrend"class="betrendebanner"> 
-            <h2> BE TREND-E</h2>
-            <script > 
+		/*fixing the issue of boxes surpassing the boarder*/
+		float: left;
+		/*centering text in the boxes*/
+		text-align: center;
+		line-height: 700%; 
+		/*list style prevents the website from srewing up the navigation portion of the site*/
+		list-style: none;	 
+	}
+
+	nav ul li:hover{
+		background-color: #f2f2f2;	 
+	}
+
+	.menupage {
+		background-color: #f2f2f2;
+		color: orange;
+	}
+
+	header {
+		height:580px;
+		width:100%;
+
+		background-color:white;
+	}
+
+	.betrendebanner{
+		margin-top:50px;
+		overflow:hidden;
+		width: 600px;
+		height: 600px;
+		background-color: #C6C6C6;
+		float: left;
+	}
+
+	.ebaypics{
+
+	}
+
+	</style>
+
+</head>
+
+<body>
+
+
+	<nav>
+		<div class="wrapper">
+			<div class="logo"> </div>
+				<ul>
+					<a href="/" target="_self"><li>HOME</li></a>
+					<a href="/betrende" target="_self"><li class="menupage">BE TREND-E</li></a>
+					<a href="/blog"><li>BLOG</li></a>
+					<a href="/sayhello"><li>SAY HELLO</li></a>
+				</ul>
+			</div>
+		</nav>
+
+		<header> 
+			<div class="wrapper">
+
+				<div id="ebayTrend"class="betrendebanner"> 
+					<h2> BE TREND-E</h2>
+					<script class="ebaypics" > 
           // Parse the response and build an HTML table to display search results
 
-            function _cb_findItemsByKeywords(root) {
-                var items = root.findItemsByKeywordsResponse[0].searchResult[0].item || [];
-                 var html = [];
-                html.push('<table id="mytable" width="100%" border="0" cellspacing="0" cellpadding="3"><tbody>');
-                for (var i = 0; i < items.length; ++i) {
-                    var item     = items[i];
-                    var title    = item.title;
-                    var pic      = item.galleryURL;
-                    var viewitem = item.viewItemURL;
-                    if (null != title && null != viewitem) {
-                    html.push('<tr><td>' + '<img src="' + pic + '" border="0">' + '</td>' +
-                    '<td><a href="' + viewitem + '" target="_blank">' + title + '</a></td></tr>');
-                    }
-                }
-                html.push('</tbody></table>');
-                
-                
-                
-                document.getElementById("ebayTrend").innerHTML = html.join("");
+
+          function _cb_findItemsByKeywords(root) {
+          	var items = root.findItemsByKeywordsResponse[0].searchResult[0].item || [];
+          	var html = [];
+          	html.push('<table id="mytable" width="100%" border="0" cellspacing="0" cellpadding="3"><tbody>');
+          	for (var i = 0; i < items.length; ++i) {
+          		var item     = items[i];
+          		var title    = item.title;
+          		var pic      = item.galleryURL;
+          		var viewitem = item.viewItemURL;
+          		if (null != title && null != viewitem) {
+          			html.push('<tr><td>' + '<a href="' + viewitem + '" target="_blank">'+ '<img src="' + pic + '" border="0"></a></td></tr>');
+          		}
+
+          	}
+          	html.push('</tbody></table>');
+
+
+
+          	document.getElementById("ebayTrend").innerHTML = html.join("");
             }   // End _cb_findItemsByKeywords() function
-          var url = "http://svcs.ebay.com/services/search/FindingService/v1";
-                url += "?OPERATION-NAME=findItemsByKeywords";
-                url += "&SERVICE-VERSION=1.0.0";
-                url += "&SECURITY-APPNAME=None87771-a335-4d69-8140-ef6acead557";
-                url += "&GLOBAL-ID=EBAY-US";
-                url += "&RESPONSE-DATA-FORMAT=JSON";
-                url += "&callback=_cb_findItemsByKeywords";
-                url += "&REST-PAYLOAD";
-                url += "&keywords= text";
-                url += "&paginationInput.entriesPerPage=10";
+            
+            
+            // Create a JavaScript array of the item filters you want to use in your request
+            var filterarray = [
+            {"name":"MaxPrice",
+            "value":"1",
+            "paramName":"Currency",
+            "paramValue":"USD"},
+            {"name":"FreeShippingOnly",
+            "value":"true",
+            "paramName":"Available",
+            "paramValue":"true"},
+            {"name":"ListingType",
+            "value":["FixedPrice", "StoreInventory"],
+            "paramName":"",
+            "paramValue":""},
+            ];
+// Define global variable for the URL filter
+var urlfilter = "";
+// Generates an indexed URL snippet from the array of item filters
+function buildURLArray() {
+// Iterate through each filter in the array
+for(var i=0; i<filterarray.length; i++) {
+//Index each item filter in filterarray
+var itemfilter = filterarray[i];
+// Iterate through each parameter in each item filter
+for(var index in itemfilter) {
+// Check to see if the paramter has a value (some don't)
+if (itemfilter[index] !== "") {
+	if (itemfilter[index] instanceof Array) {
+		for(var r=0; r<itemfilter[index].length; r++) {
+			var value = itemfilter[index][r];
+			urlfilter += "&itemFilter\(" + i + "\)." + index + "\(" + r + "\)=" + value ;
+		}
+	}
+	else {
+		urlfilter += "&itemFilter\(" + i + "\)." + index + "=" + itemfilter[index];
+	}
+}
+}
+}
+} // End buildURLArray() function
+// Execute the function to build the URL filter
+buildURLArray(filterarray);
+
+var url = "http://svcs.ebay.com/services/search/FindingService/v1";
+url += "?OPERATION-NAME=findItemsByKeywords";
+url += "&SERVICE-VERSION=1.0.0";
+url += "&SECURITY-APPNAME=None87771-a335-4d69-8140-ef6acead557";
+url += "&GLOBAL-ID=EBAY-US";
+url += "&RESPONSE-DATA-FORMAT=JSON";
+url += "&callback=_cb_findItemsByKeywords";
+url += "&REST-PAYLOAD";
+url += "&keywords= clothes";
+url += "&paginationInput.entriesPerPage=50";
+url += urlfilter;
                 // Submit the request
                 s=document.createElement('script'); // create script element
                 s.src= url;
                 document.body.appendChild(s);
-      </script>
-        </div>
+                </script>
+            </div>
 
-      </div>
+        </div>
     </header>
 
     <section>
-            
+
     </section>
 
     <footer>
-      <div class="wrapper"></div>
-    </footer> 
-    
-    
+    	<div class="wrapper"></div>
+    </footer>	
 
-  </body>
+
+
+</body>
 </html>
+
