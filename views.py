@@ -17,9 +17,9 @@ def index():
 def portfolio():
 	return render_template('portfolio.html')
 
-@app.route('/betrende')
-def betrende():
-	return render_template('betrende.html')
+@app.route('/buytrende')
+def buytrende():
+	return render_template('buytrende.html')
 
 @app.route('/buytrende')
 def buytrende():
