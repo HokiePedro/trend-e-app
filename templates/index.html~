@@ -159,20 +159,11 @@
 
 				<a href="http://tinypic.com?ref=2ag99xd"><a>	
 				<ul>
-<<<<<<< HEAD:templates/index.html
-
-					<li class="menupage"><a href="index.html" target="_self">ABOUT US</a></li>
-					<li><a href="aboutus" target="_self">BE TREND-E</a></li>
-					<a href="portfolio.html"><li>COMPANIES</li></a>
-					<a href="blog.html"><li>BLOG</li></a>
-					<a href="contacts.html"><li>SAY HELLO</li></a>
-=======
 					<a href="/" target="_self"><li class="menupage">HOME</li></a>
 					<a href="/betrende" target="_self"><li>BE TREND-E</li></a>
 					<a href="/buytrende"><li>BUY TREND-E</li></a>
 					<a href="/blog"><li>BLOG</li></a>
 					<a href="/sayhello"><li>SAY HELLO</li></a>
->>>>>>> 01c231b1aa91ead7bbe6b5619b64c1f52fcd631a:templates/index.html
 				</ul>
 			</div>
 		</nav>
@@ -180,12 +171,27 @@
 		<header> 
 			<div class="wrapper">
 				<div class="whoami"> 
+<<<<<<< HEAD
 				    <h2 class="welcome"> welcome to trend-e <br></h2>
 				    <div class="whoamit1">
                         <p class="textbox">
                             Welcome to trend-e! We can't wait </br> for you to see our final hack #MHacks 
                         </p>
+=======
+				    <h2> welcome to trend-e!<br></h2>
+				    <div class="whoamit1">
+				        <p>
+				        	<form action="/html/tags/html_form_tag_action.cfm" method="post">
+<br/>
+  <textarea class="textbox">
+trend-e curates the trendiest items from ebay and allows you to browse and be linked to the items directly from our website. Click the buy trend-e button above to get started! 
+  </textarea><br/>
+</form>
+				         
 
+
+				        </p>
+>>>>>>> 3ab4ef691782f9929fc565a1de51a9d9ebcf3bd1
 				    </div>
 				</div>
 				<a class="twitter-timeline" href="https://twitter.com/trendeapp" data-widget-id="556600329161416706">Tweets by @trendeapp</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>

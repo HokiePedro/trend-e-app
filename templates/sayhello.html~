@@ -24,6 +24,12 @@
 
 		h1 {
 			text-align: center;
+			font-family: arial;
+		}
+
+		.whoamit1 {
+			margin: 0, auto;
+			width: 1200px;
 		}
 
 		nav {
@@ -82,7 +88,7 @@
 			background-color: #f2f2f2;	 
 		}
 
-		.blogbutton {
+		.sayhellobutton {
 			background-color: #f2f2f2;
  			color: orange;
 		}
@@ -94,7 +100,8 @@
     		background-color:white;
 		}
 
-		.blogbanner{
+
+		.sayhellobanner{
     		margin-top:10px;
     		height: 490px;
     		width: 100%;
@@ -114,37 +121,32 @@
 
 				<a href="http://tinypic.com?ref=2ag99xd"><a>	
 				<ul>
-					<a href="/" target="_self"><li>HOME</li><a>
+					<a href="/" target="_self"><li>HOME</li></a>
 					<a href="/betrende" target="_self"><li>BE TREND-E</li></a>
 					<a href="/buytrende"><li>BUY TREND-E</li></a>
-					<a href="/blog"><li class="blogbutton">BLOG</li></a>
-					<a href="/sayhello"><li>SAY HELLO</li></a>
+					<a href="/blog"><li>BLOG</li></a>
+					<a href="/sayhello"><li class="sayhellobutton">SAY HELLO</li></a>
 				</ul>
 			</div>
 		</nav>
 
-		<h1>THE BLOG</h1>
+		<h1>Say hello!</h1>
 
-		<header>
+		<header> 
 			<div class="wrapper">
 
-				<div class="blogbanner">
+
+				<div class="sayhellobanner">
 					<div class="panel panel-default">
             			<div class="panel-body">
-            				<h2> The Blog </h2></br>
-				    		<p> MHacks V gave us the opportunity to build a cool website, meet new friends, and most importantly, learn. We wanted to thank everyone involved in hosting a great hackathon including the MHacks V team, the sponsors, and most importantly, the hackers that made MHacks V a hackathon for the books. </p></br>
-				    		<p>We can't wait for our next hackathon! Cheers, The trend-e app Team </p></br>
+				    		<p>Trend-e was developed by Meghan Maloney, Shannon Maloney,
+				    		Pedro Sorto, and <a href="http://jonperry.heroku.com"
+				    		target="_blank">Jonathan Perry</a>.</p></br>
+				    		<p>Feel free to contact us at trendeapp@gmail.com</p></br>
             			</div>
           			</div>
-          			<div class="panel panel-default">
-            			<div class="panel-body">
-            				<h2>Sample Blog Post</h2></br>
-            				<p>Another blog post</p></br>
-            			</div>
-            		</div>
 				</div>
 			</div>
-
 		</header>
 
 		<section>
