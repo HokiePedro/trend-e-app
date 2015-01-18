@@ -2,7 +2,7 @@
 <html lang="eng">
 	<head>
 		<meta charset="utf-8" />
-		<title>My Portfolio</title>
+		<title>welcome to trend-e</title>
 		<link rel="stylesheet" href="style.css">
 		<style> 
 	    	@charset "utf-8";
@@ -14,9 +14,18 @@
 		  		text-decoration: none;
 			}
 
+		.twitter-timeline{
+			padding: 0px;
+			
+		}
 		.wrapper {
 		  	margin: 0 auto;
 		  	width: 1200px;
+		}
+
+		.whoamit1 {
+			margin: 0, auto;
+			width: 1200px;
 		}
 
 		nav {
@@ -31,7 +40,7 @@
 		  	top: 15px;
 		  	width: 50px;
 		  	height: 50px;
-		  	background-image: url("img/final.png");
+		  	
 		}
 
 		.logo:hover {
@@ -88,15 +97,23 @@
 		.whoami{
     		margin-top:80px;
     		height: 420px;
-    		width: 55%;
+    		width: 50%;
     		background-color:black;
     		float: left;
 		}
 
+		.twitter-timeline{
+			margin-top:80px;
+    		height: 420px;
+    		width: 50%;
+    		background-color:black;
+    		float: right;
+    	}
+
 		.latestworkindex{
     		margin-top:80px;
     		height: 420px;
-    		width: 40%;
+    		width: 55%;
     		background-color:grey;
     		float: right;
 		}
@@ -120,6 +137,14 @@
       		font-family: arial;
       		font-size: 14px;
 		}
+
+		.textbox {
+			margin-top:60px;
+    		height: 380px;
+    		width: 50%;
+    		background-color:white;
+    		float: left;
+		}
     
 
 		</style>
@@ -131,13 +156,21 @@
 			<div class="wrapper">
 				<div class="logo"></div>
 
-				<p class="logotext"> <a href="http://tinypic.com?ref=2ag99xd" target="_blank"><img src="http://i57.tinypic.com/2ag99xd.png" border="0" alt="Image and video hosting by TinyPic"></a></br></p>	
+				<a href="http://tinypic.com?ref=2ag99xd"><a>	
 				<ul>
+<<<<<<< HEAD
 					<li class="menupage"><a href="/" target="_self">ABOUT US</a></li>
 					<li><a href="/betrende" target="_self">BE TREND-E</a></li>
 					<a href="portfolio.html"><li>COMPANIES</li></a>
 					<a href="blog.html"><li>BLOG</li></a>
 					<a href="contacts.html"><li>SAY HELLO</li></a>
+=======
+					<a href="/" target="_self"><li class="menupage">HOME</li></a>
+					<a href="/betrende" target="_self"><li>BE TREND-E</li></a>
+					<a href="/companies"><li>COMPANIES</li></a>
+					<a href="/blog"><li>BLOG</li></a>
+					<a href="/sayhello"><li>SAY HELLO</li></a>
+>>>>>>> 09c2b9447fc9d6f9e909c674d491fc132615c407
 				</ul>
 			</div>
 		</nav>
@@ -148,11 +181,20 @@
 				    <h2> welcome to trend-e <br> thanks for stopping by!</h2>
 				    <div class="whoamit1">
 				        <p>
-				            Welcome to trend-e! We can't wait for you to see our final hack. #MHacks 2015  <br> ..... :)
+				        	<form action="/html/tags/html_form_tag_action.cfm" method="post">
+Comments:<br />
+  <textarea name="comments" id="comments" style="width:420px;height:70px;background-color:#808080;">
+  Hey... say something!
+  </textarea><br />
+  <input type="submit" value="Submit" />
+</form>
+				         
+Welcome to trend-e! We can't wait for you to see our final hack. #MHacks 2015..... :)
+
 				        </p>
 				    </div>
 				</div>
-				<div class="latestworkindex">
+				<a class="twitter-timeline" href="https://twitter.com/trendeapp" data-widget-id="556600329161416706">Tweets by @trendeapp</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 				</div>
 							
 			</div>
