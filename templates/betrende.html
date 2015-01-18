@@ -138,42 +138,46 @@
 		background-color:white;
 	}
 
-		.betrendebanner{
-    		margin-top:50px;
-            overflow:hidden;
-             
+	.betrendebanner{
+		margin-top:50px;
+		overflow: hidden;
+		width: 600px;
+		height: auto;
+		background-color: #C6C6C6;
+		float: left;
+	}
 
-        width: 100%;
-        background-color: #C6C6C6;
-        float: left;
-    }
-    </style>
-  
-  </head>
+	.ebaypics{
 
-  <body>
-     
-  
-    <nav>
-      <div class="wrapper">
-        <div class="logo"></div>
+	}
 
-        <ul>
-          <a href="/" target="_self"><li>HOME</li></a>
-          <a href="/betrende" target="_self"><li class="menupage">BE TREND-E</li></a>
-          <a href="/blog"><li>BLOG</li></a>
-          <a href="/sayhello"><li>SAY HELLO</li></a>
-        </ul>
-      </div>
-    </nav>
+	</style>
 
-    <header> 
-      <div class="wrapper">
 
-        <div id="ebayTrend"class="betrendebanner"> 
-            <h2> BE TREND-E</h2>
-            <script > 
-          // Parse the response and build an HTML table to display search results
+</head>
+
+<body>
+
+
+	<nav>
+		<div class="wrapper">
+			<div class="logo"> </div>
+				<ul>
+					<a href="/" target="_self"><li>HOME</li></a>
+					<a href="/betrende" target="_self"><li class="menupage">BE TREND-E</li></a>
+					<a href="/blog"><li>BLOG</li></a>
+					<a href="/sayhello"><li>SAY HELLO</li></a>
+				</ul>
+			</div>
+		</nav>
+
+		<header> 
+			<div class="wrapper">
+
+				<div id="ebayTrend"class="betrendebanner"> 
+					<h2> BE TREND-E</h2>
+					<script class="ebaypics" > 
+ var person = prompt("enter a search query");        // Parse the response and build an HTML table to display search results
 
 
           function _cb_findItemsByKeywords(root) {
@@ -201,7 +205,7 @@
             // Create a JavaScript array of the item filters you want to use in your request
             var filterarray = [
             {"name":"MaxPrice",
-            "value":"1",
+            "value":"100",
             "paramName":"Currency",
             "paramValue":"USD"},
             {"name":"FreeShippingOnly",
@@ -249,7 +253,7 @@ url += "&GLOBAL-ID=EBAY-US";
 url += "&RESPONSE-DATA-FORMAT=JSON";
 url += "&callback=_cb_findItemsByKeywords";
 url += "&REST-PAYLOAD";
-url += "&keywords= clothes";
+url += "&keywords=" + person;
 url += "&paginationInput.entriesPerPage=50";
 url += urlfilter;
                 // Submit the request
