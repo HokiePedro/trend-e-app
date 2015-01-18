@@ -83,7 +83,7 @@
 	top: 0px;
 	width: 200px;
 	height: 80px;
-	background-image: url("img/trend-e_combined.png");
+	background-image: url("http://i.imgur.com/kejx12s.png");
 }
 
 .logo:hover {
@@ -140,9 +140,9 @@
 
 	.betrendebanner{
 		margin-top:50px;
-		overflow:hidden;
+		overflow: hidden;
 		width: 600px;
-		height: 600px;
+		height: auto;
 		background-color: #C6C6C6;
 		float: left;
 	}
@@ -152,6 +152,7 @@
 	}
 
 	</style>
+
 
 </head>
 
@@ -176,7 +177,7 @@
 				<div id="ebayTrend"class="betrendebanner"> 
 					<h2> BE TREND-E</h2>
 					<script class="ebaypics" > 
-          // Parse the response and build an HTML table to display search results
+ var person = prompt("enter a search query");        // Parse the response and build an HTML table to display search results
 
 
           function _cb_findItemsByKeywords(root) {
@@ -204,7 +205,7 @@
             // Create a JavaScript array of the item filters you want to use in your request
             var filterarray = [
             {"name":"MaxPrice",
-            "value":"1",
+            "value":"100",
             "paramName":"Currency",
             "paramValue":"USD"},
             {"name":"FreeShippingOnly",
@@ -252,10 +253,9 @@ url += "&GLOBAL-ID=EBAY-US";
 url += "&RESPONSE-DATA-FORMAT=JSON";
 url += "&callback=_cb_findItemsByKeywords";
 url += "&REST-PAYLOAD";
-url += "&keywords= clothes";
+url += "&keywords=" + person;
 url += "&paginationInput.entriesPerPage=50";
 url += urlfilter;
-
                 // Submit the request
                 s=document.createElement('script'); // create script element
                 s.src= url;
