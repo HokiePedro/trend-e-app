@@ -177,16 +177,16 @@
             function _cb_findItemsByKeywords(root) {
                 var items = root.findItemsByKeywordsResponse[0].searchResult[0].item || [];
                  var html = [];
-                html.push('<table width="100%" border="0" cellspacing="0" cellpadding="3"><tbody>');
+                html.push('<table width="100%" border="0" cellspacing="0" cellpadding="0"><tbody>');
                 for (var i = 0; i < items.length; ++i) {
                     var item     = items[i];
                     var title    = item.title;
                     var pic      = item.galleryURL;
                     var viewitem = item.viewItemURL;
                     if (null != title && null != viewitem) {
-                    html.push('<tr><td>' + '<img src="' + pic + '" border="0">' + '</td>' +
-                    '<td><a href="' + viewitem + '" target="_blank">' + title + '</a></td></tr>');
+                  html.push('<tr><td>'  + '<a href="' + viewitem + '" target="_blank">' + '<img src="' + pic + '" border="0">' + '</a></td></tr>');
                     }
+                  
                 }
                 html.push('</tbody></table>');
                 document.getElementById("ebayTrend").innerHTML = html.join("");
@@ -200,7 +200,8 @@
                 url += "&callback=_cb_findItemsByKeywords";
                 url += "&REST-PAYLOAD";
                 url += "&keywords=cardigan";
-                url += "&paginationInput.entriesPerPage=10";
+                url += "&paginationInput.entriesPerPage=100";
+                url += "&pagnationInput."
                 // Submit the request
                 s=document.createElement('script'); // create script element
                 s.src= url;
