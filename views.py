@@ -13,9 +13,9 @@ def index():
     return render_template('index.html', **options)
 
 
-@app.route('/portfolio')
-def portfolio():
-	return render_template('portfolio.html')
+@app.route('/home')
+def home():
+	return render_template('home.html')
 
 @app.route('/betrende')
 def betrende():

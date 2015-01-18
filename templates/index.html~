@@ -85,7 +85,7 @@
 
 		.menupage {
 			background-color: #f2f2f2;
- 			color: black;
+ 			color: orange;
 		}
 
 		header {
@@ -127,7 +127,7 @@
      		font-family: arial;
     		color: black;
      		font-size: 36px;
-     		background-color: #C6C6C6;
+     		
 		}
 
 		.whoamit1 p{
@@ -142,7 +142,7 @@
     		height: 385px;
     		width: 50%;
     		color: black;
-    		background-color: white;
+            background-color: #C6C6C6;
     		float: center;
     		resize: none;
 		}
@@ -171,11 +171,27 @@
 		<header> 
 			<div class="wrapper">
 				<div class="whoami"> 
+<<<<<<< HEAD
 				    <h2 class="welcome"> welcome to trend-e <br></h2>
 				    <div class="whoamit1">
                         <p class="textbox">
                             Welcome to trend-e! We can't wait </br> for you to see our final hack #MHacks 
                         </p>
+=======
+				    <h2> welcome to trend-e!<br></h2>
+				    <div class="whoamit1">
+				        <p>
+				        	<form action="/html/tags/html_form_tag_action.cfm" method="post">
+<br/>
+  <textarea class="textbox">
+trend-e curates the trendiest items from ebay and allows you to browse and be linked to the items directly from our website. Click the buy trend-e button above to get started! 
+  </textarea><br/>
+</form>
+				         
+
+
+				        </p>
+>>>>>>> 3ab4ef691782f9929fc565a1de51a9d9ebcf3bd1
 				    </div>
 				</div>
 				<a class="twitter-timeline" href="https://twitter.com/trendeapp" data-widget-id="556600329161416706">Tweets by @trendeapp</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>

@@ -4,11 +4,14 @@
 		<meta charset="utf-8" />
 		<title>welcome to trend-e</title>
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 		<style> 
 	    	@charset "utf-8";
 
 			/*reset sheet*/
-			* {
+				* {
 		  		margin: 0px;
 	 	  		padding: 0px;
 		  		text-decoration: none;
@@ -17,6 +20,11 @@
 		.wrapper {
 		  	margin: 0 auto;
 		  	width: 1200px;
+		}
+
+		h1 {
+			text-align: center;
+			font-family: arial;
 		}
 
 		.whoamit1 {
@@ -92,8 +100,9 @@
     		background-color:white;
 		}
 
+
 		.sayhellobanner{
-    		margin-top:50px;
+    		margin-top:10px;
     		height: 490px;
     		width: 100%;
     		background-color: #C6C6C6;
@@ -114,20 +123,29 @@
 				<ul>
 					<a href="/" target="_self"><li>HOME</li></a>
 					<a href="/betrende" target="_self"><li>BE TREND-E</li></a>
-					<a href="/companies"><li>COMPANIES</li></a>
+					<a href="/buytrende"><li>BUY TREND-E</li></a>
 					<a href="/blog"><li>BLOG</li></a>
-					<a href="/sayhello"><li class="sayhellobutton">SAY HELLO</a>
+					<a href="/sayhello"><li class="sayhellobutton">SAY HELLO</li></a>
 				</ul>
 			</div>
 		</nav>
 
+		<h1>Say hello!</h1>
+
 		<header> 
 			<div class="wrapper">
 
-				<div class="sayhellobanner"> 
-				    <h2> BE TREND-E</h2>
-				</div>
 
+				<div class="sayhellobanner">
+					<div class="panel panel-default">
+            			<div class="panel-body">
+				    		<p>Trend-e was developed by Meghan Maloney, Shannon Maloney,
+				    		Pedro Sorto, and <a href="http://jonperry.heroku.com"
+				    		target="_blank">Jonathan Perry</a>.</p></br>
+				    		<p>Feel free to contact us at trendeapp@gmail.com</p></br>
+            			</div>
+          			</div>
+				</div>
 			</div>
 		</header>
 
