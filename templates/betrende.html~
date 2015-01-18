@@ -4,6 +4,9 @@
 		 <meta charset="utf-8" name="ROBOTS" content="NOINDEX, NOFOLLOW"/>		<title>welcome to trend-e</title>
 		<link rel="stylesheet" href="style.css">
 		<script src="jquery-2.1.3.min.js"></script>
+	    
+	    
+	    
 	    <style>
 	        #tfheader{
 		background-color:#c3dfef;
@@ -81,7 +84,7 @@
 	    top: 15px;
 	    width: 80px;
 	    height: 80px;
-    	background-image: url("img/trend-e_combined.png");
+    	background-image: url("/final");
         }
 
         .logo:hover {
@@ -137,13 +140,18 @@
 		}
 
 		.betrendebanner{
-    		margin-top:50px;
+    		margin-top:30px;
             overflow:hidden;
     		width: 100%;
     		background-color: #C6C6C6;
     		float: left;
 		}
-
+		
+		.searchbar{
+		    margin-top: 30px;
+		    width: 60%;
+		}
+		
 
 		</style>
 	
@@ -155,6 +163,8 @@
 		<nav>
 			<div class="wrapper">
 				<div class="logo"></div>
+
+
 
 				<a href="http://tinypic.com?ref=2ag99xd"><a>	
 				<ul>
@@ -168,16 +178,38 @@
 		</nav>
 
 		<header> 
+		<div class="" >   
+		</div>
 			<div class="wrapper">
-
+            
+                    
+				    <input class="searchbar" type="text" value="Enter your query here." id="text" style="height: 80px" style="width: 420px"   />
+                            <br />
+                        <input type="button" value="Click Me" id="button" />
+				    
+                
 				<div id="ebayTrend"class="betrendebanner"> 
-				    <h2> BE TREND-E</h2>
+				
+				    
+				    
+				    <h2 class="trendetile"> BE TREND-E
+				    
+				    </h2>
+				    
+				    
+				    
 				    <script > 
+				    
+				        document.getElementById("button").addEventListener('click', function () {
+                         var text = document.getElementById('text');
+                        text.text = (text.text + ' after clicking');
+                        });
+				    
 	        // Parse the response and build an HTML table to display search results
             function _cb_findItemsByKeywords(root) {
                 var items = root.findItemsByKeywordsResponse[0].searchResult[0].item || [];
                  var html = [];
-                html.push('<table width="100%" border="0" cellspacing="0" cellpadding="3"><tbody>');
+                html.push('<table id="mytable" width="100%" border="0" cellspacing="0" cellpadding="3"><tbody>');
                 for (var i = 0; i < items.length; ++i) {
                     var item     = items[i];
                     var title    = item.title;
@@ -189,6 +221,9 @@
                     }
                 }
                 html.push('</tbody></table>');
+                
+                
+                
                 document.getElementById("ebayTrend").innerHTML = html.join("");
             }   // End _cb_findItemsByKeywords() function
 	        var url = "http://svcs.ebay.com/services/search/FindingService/v1";
@@ -199,7 +234,7 @@
                 url += "&RESPONSE-DATA-FORMAT=JSON";
                 url += "&callback=_cb_findItemsByKeywords";
                 url += "&REST-PAYLOAD";
-                url += "&keywords=cardigan";
+                url += "&keywords= text";
                 url += "&paginationInput.entriesPerPage=10";
                 // Submit the request
                 s=document.createElement('script'); // create script element

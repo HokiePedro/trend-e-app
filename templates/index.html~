@@ -127,7 +127,7 @@
      		font-family: arial;
     		color: black;
      		font-size: 36px;
-     		
+     		background-color: #C6C6C6;
 		}
 
 		.whoamit1 p{
@@ -142,7 +142,7 @@
     		height: 385px;
     		width: 50%;
     		color: black;
-            background-color: #C6C6C6;
+    		background-color: white;
     		float: center;
     		resize: none;
 		}

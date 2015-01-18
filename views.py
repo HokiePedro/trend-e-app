@@ -32,3 +32,7 @@ def blog():
 @app.route('/sayhello')
 def sayhello():
 	return render_template('sayhello.html')
+	
+@app.route('/final')
+def final():
+    return render_template('/img/final.png')
